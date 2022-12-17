@@ -1,0 +1,41 @@
+.animecontainer{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    alignt-items:center;
+    
+  }
+.animewrapper{
+  display:flex;
+  justify-content:center;
+  flex-direction:column;
+  border-radius:1rem;
+  background-color:red;
+
+}
+.animeTitle{
+text-decoration:none;
+color:black;
+
+}
+a,h2,h3,p{
+  background-color:#fed99b;
+  margin:0;
+  line-height:2
+}
+a:link,
+a:visited{
+  text-alignt:center;
+  text-decoration:none;
+  display:inline-block;
+}
+.animeGenre{
+margin:0;
+display:inline-block;
+text-align:center;
+
+}
+.animeImage{
+  width:20rem;
+  heihgt:2rem
+}
